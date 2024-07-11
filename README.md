@@ -25,22 +25,22 @@ This project is a simple calculator application for a food store. It allows cust
 
 
 1. **Run the tests using Jest:**
-```sh
-npm test
-```
+
+    ```sh
+    npm test
+    ```
 2. **Example Unit Test Output::**
 
-```sh
-PASS  tests/calculator.test.js
-  Calculator
-    ✓ should calculate total price without discounts (10 ms)
-    ✓ should apply member card discount (2 ms)
-    ✓ should apply bundle discount for Orange set (1 ms)
-    ✓ should apply bundle discount for Pink set (1 ms)
-    ✓ should apply bundle discount for Green set with member card discount (1 ms)
+    ```sh
+    PASS  test/Calculator.test.js
+    Calculator
+    √ Calculate total price without discounts (14 ms)
+    √ Apply member card discount (3 ms)
+    √ Apply bundle discount for Orange set (2 ms)
+    √ Apply bundle discount for Green set with member card discount (1 ms)
 
-Test Suites: 1 passed, 1 total
-Tests:       5 passed, 5 total
-Snapshots:   0 total
-Time:        2.435 s
-```
+    Test Suites: 1 passed, 1 total
+    Tests:       4 passed, 4 total
+    Snapshots:   0 total
+    Time:        0.218 s, estimated 1 s
+    ```
