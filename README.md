@@ -3,7 +3,7 @@
 ## Description
 
 This project is a simple calculator application for a food store. It allows customers to order from a menu of seven items and calculates the total price, applying discounts for members and bundle purchases.
-
+testtt
 
 ## Installation
 

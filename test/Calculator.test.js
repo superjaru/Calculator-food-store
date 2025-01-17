@@ -30,5 +30,6 @@ describe('Calculator', () => {
     const orders = { "Green set": 4 };
     const total = calc.calculatePrice(orders, true);
     expect(total).toBe(136.80);
+    // yoyoyoyo
   });
 });
